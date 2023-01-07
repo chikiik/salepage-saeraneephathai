@@ -8,18 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Sarabun:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    
-    <script>
-        $(function(){
-          
-            // ready function
-        })
-    </script>
+    <script src="./script.js"></script>
 </head>
-
-
 
 <body>
     <div class="fix-tab">
@@ -29,20 +21,61 @@
    </div>
    <div class="container">
         <div class="cover">
-            <img src="./image/cover-page.png" alt="">
+            <img  src="./image/cover-page.png" alt="">
         </div>
         <div class="about-me">
             <ul style="list-style-type:none">
-                <li><span class="checkmark"><i class="far fa-check-square"></i></span> จำหน่ายชุดผ้าไหม ผ้าไทย ผ้าฝ้าย ผ้าคราม</li>
-                <li><span class="checkmark"><i class="far fa-check-square"></i></span> ชุดออกงาน ชุดไทยเรือนต้น ชุดไทยจิตรลดา</li>
-                <li><span class="checkmark"><i class="far fa-check-square"></i></span> ครบครันทั้งเสื้อ กระโปรง กางเกง เดรส</li>
-                <li><span class="checkmark"><i class="far fa-check-square"></i></span> ตัดเย็บด้วยช่าง<span class="quality-text">ฝีมือคุณภาพ มาตรฐานงานหน้าร้าน</span></li>
-                <li><span class="checkmark"><i class="far fa-check-square"></i></span> รับงานสั่งตัดตามออเดอร์ <span class="quality-text">พร้อมให้คำแนะนำในการออกแบบ</span></li>
+                <li><span class="checkmark"><i class="fas fa-check-square"></i></span> จำหน่ายชุดผ้าไหม ผ้าไทย ผ้าฝ้าย ผ้าคราม</li>
+                <li><span class="checkmark"><i class="fas fa-check-square"></i></span> ชุดออกงาน ชุดไทยเรือนต้น ชุดไทยจิตรลดา</li>
+                <li><span class="checkmark"><i class="fas fa-check-square"></i></span> ครบครันทั้งเสื้อ กระโปรง กางเกง เดรส</li>
+                <li><span class="checkmark"><i class="fas fa-check-square"></i></span> ตัดเย็บด้วยช่าง<span class="quality-text">ฝีมือคุณภาพ มาตรฐานงานหน้าร้าน</span></li>
+                <li><span class="checkmark"><i class="fas fa-check-square"></i></span> รับงานสั่งตัดตามออเดอร์ <span class="quality-text">พร้อมให้คำแนะนำในการออกแบบ</span></li>
             </ul>
             
             
         </div>
-        <br/>  
+        <div class="display-slide-container">
+            <div class="mySlides">
+                <img id="imgSlide" src="./image/product-slide/A10_F.png"  alt="0" style="width:100%">
+            </div>
+            <button class="button display-left" onclick="showDivs(-1)">&#10094;</button>
+            <button class="button display-right" onclick="showDivs(1)">&#10095;</button>
+        </div>
+        
+        <div class="display-container">
+            <img src="./image/product-static/2.png" alt="">
+            <img src="./image/product-static/1.png" alt="">
+            <img src="./image/product-static/3.png" alt="">
+            <img src="./image/product-static/4.png" alt="">
+            <img src="./image/product-static/5.png" alt="">
+            <img src="./image/product-static/7.png" alt="">
+            <img src="./image/product-static/9.png" alt="">
+            <img src="./image/product-static/6.png" alt="">
+            <img src="./image/product-static/8.png" alt="">
+            <img src="./image/product-static/10.png" alt="">
+            <img src="./image/product-static/11.png" alt="">
+            <img src="./image/product-static/12.png" alt="">
+            <img src="./image/product-static/13.png" alt="">
+            <img src="./image/product-static/14.png" alt="">
+            <img src="./image/product-static/15.png" alt="">
+            <img src="./image/product-static/16.png" alt="">
+            <img src="./image/product-static/17.png" alt="">
+            <img src="./image/product-static/18.png" alt="">
+            <img src="./image/product-static/19.png" alt="">
+            <img src="./image/product-static/20.png" alt="">
+            <img src="./image/product-static/21.png" alt="">
+            <img src="./image/product-static/22.png" alt="">
+            <img src="./image/product-static/23.png" alt="">
+            <img src="./image/product-static/24.png" alt="">
+            <img src="./image/product-static/25.png" alt="">
+            <img src="./image/product-static/26.png" alt="">
+            <img src="./image/product-static/27.png" alt="">
+            <img src="./image/product-static/28.png" alt="">
+            <img src="./image/product-static/29.png" alt="">
+            <img src="./image/product-static/30.png" alt="">
+        </div>
+
+        <br/>  <br/> 
    </div>
   
 <br/>     
