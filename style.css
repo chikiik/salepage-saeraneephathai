@@ -18,7 +18,7 @@ body {
 }
 
 .about-me{
-    font-size:50px;
+    font-size:40px;
     margin: 50px 0;
 }
 
@@ -127,8 +127,15 @@ a:hover{
 
 }
 
+
+
 @media only screen and (max-width: 768px) {
-    .about-me,.fix-tab{
+    .about-me{
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .fix-tab{
         font-size: 16px;
     }
 
@@ -161,9 +168,28 @@ a:hover{
         margin: 3px;
     }
   }
+
+  @media only screen and (max-width: 425px) {
+    .about-me{
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .quality-text{
+        text-shadow: 1px 1px 2px black ;
+    }
+  }
   
-  @media only screen and (max-width: 320px) {
-    .about-me, .fix-tab{
+  @media only screen and (max-width: 375px) {
+    .about-me{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+
+    .quality-text{
+        text-shadow: 1px 1px 1.5px black ;
+    }
+    .fix-tab{
         font-size: 12px;
     }
     
@@ -195,4 +221,6 @@ a:hover{
         border-radius: 3px;
         margin: 2px;
     }
+
+  
   }
