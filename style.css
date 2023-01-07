@@ -58,7 +58,10 @@ a:link {
 a:visited {
     color: black;
 }
-
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+}
 a:hover{
     color: rgb(96, 16, 137);
     text-shadow: 0.2px 0.2px 2px rgb(89, 88, 88) ;
